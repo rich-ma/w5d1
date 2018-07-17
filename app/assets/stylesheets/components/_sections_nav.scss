@@ -1,0 +1,24 @@
+.section-links {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $gray;
+}
+
+.section-links ul {
+  display: flex;
+  justify-content: center;
+}
+.section-links ul li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-links a:hover {
+  text-decoration: underline;
+}
+
+.section-links li:last-child{
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 10px;
+}
